@@ -1,0 +1,36 @@
+{
+  "name": "@buihdk/ui-components",
+  "version": "1.1.5",
+  "description": "UI components for demo",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": "buihdk <contact@buihdk.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^3.6.0",
+    "path": "^0.12.7",
+    "style-loader": "^1.3.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.13.2",
+    "@mui/styles": "^5.13.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
